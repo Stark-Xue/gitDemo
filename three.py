@@ -4,3 +4,6 @@ def index(request):
 	return render(request, 'index.html')
 def africa(request):
 	return HttpResponse("非洲专区888")
+def live(request):
+	print('开发到一半')
+	return HttpResponse('...')
