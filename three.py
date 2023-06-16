@@ -1,4 +1,5 @@
 """我是新开发的直播模块"""
+# 多人协同开发：1开发的功能1
 from django.shortcuts import render, HttpResponse
 def index(request):
 	return render(request, 'index.html')
